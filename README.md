@@ -12,8 +12,8 @@ A simple interactive vocabulary review tool for studying JLPT N1–N5 words with
   - ⏭️ Move to next word
 - Tracks review state for each word:
   - `appear_count` (remaining exposures)
-  - `read_count` (number of times reading was requested)
-  - `meaning_count` (number of times meaning was revealed)
+  - `read_count` (number of times pronunciation needs to be practiced)
+  - `meaning_count` (number of times meaning needs to be practiced)
 - Repetition weights based on familiarity
 - Automatic progress saving to `vocab_state.json`
 - Fast audio playback with local caching (in `.cache/tts_audio`)
